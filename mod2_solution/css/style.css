@@ -1,4 +1,4 @@
-/*welcome to my beautiful code*/
+/*Welcome to my simple code*/
 * {
   box-sizing: border-box;
   margin:0;
@@ -7,16 +7,19 @@
 
 body {
   font-family: "Raleway", sans-serif;
+  font-size:16px;
+  color:#2b2d42;
 }
 
 section {
 	max-width:1100px;
-	margin:auto; /*I never understood why, but apart from taking care of margins, this seems to center everything perfectly*/
+	margin:auto;
 }
 
 h1 {
 	text-align:center;
 	padding: 25px 10px;
+	font-size:2em;
 }
 
 #chicken, #beef, #shrimp {
@@ -24,9 +27,10 @@ h1 {
   width: 95%;
   padding: 40px 15px 15px 15px;
   position: relative;
-  border: 2px solid black;
+  border: 2px solid #2b2d42;
   overflow: hidden;
   margin:15px auto;
+  background-color: #edf2f4;
 }
 
 #chicken span, #beef span, #shrimp span {
@@ -37,12 +41,26 @@ h1 {
   text-align: center;
   font-size: 1.6em;
   text-transform: uppercase;
-  border-bottom:2px solid black;
-  border-left:2px solid black;;
+  border-bottom:2px solid #2b2d42;
+  border-left:2px solid #2b2d42;;
+}
+
+/*colors*/
+.back-grey {
+	background-color:#8d99ae;
+}
+.back-pink {
+	background-color: #e75466;
+}
+.back-blue {
+	background-color:#4bcfbf;
+}
+.text-white {
+	color:white;
 }
 
 
- /****** RESPONSIVE GRID ******/
+ /****** RESPONSIVE GRID - left the whole of it for future usage! ******/
   /* Desktop size */
  @media (min-width: 992px) {
    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
